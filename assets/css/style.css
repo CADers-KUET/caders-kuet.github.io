@@ -31,6 +31,7 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+
 /* 
 ---------------------------------------------
 reset
@@ -189,12 +190,12 @@ body {
 }
 
 ::selection {
-  background: #ff589e;
+  background: #32C326;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background:#32C326;
   color: #fff;
 }
 
@@ -214,6 +215,12 @@ body {
     margin-bottom: 60px;
   }
 }
+.class-head h2 {
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+  text-align: center;
+}
 
 a.main-button-slider {
   font-size: 13px;
@@ -230,14 +237,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #0088e8;
+  background-color:#0E370B;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #00b4c6;
+  background-color:#32C326;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -248,7 +255,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #0088e8;
+  background-color: #0E370B;
 }
 
 button.main-button {
@@ -269,7 +276,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #0088e8;
+  background-color: #0E370B;
 }
 
 .section-heading h2 {
@@ -720,7 +727,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/banner-bg.svg);
   background-repeat: no-repeat;
 /*
 TRY IT ... with or without CENTER CENTER
@@ -908,45 +915,45 @@ services
 #services {
   position: relative;
   padding: 120px 0px 90px 0px;
-  background: rgba(0, 136, 232, 1);
+  background: #21831A;
   background: -moz-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326 0%,
+    #21831A 100%
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
+    color-stop(0%, #21831A),
+    color-stop(0%, #32C326)),
+    color-stop(100%, #21831A)
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21831A', endColorstr='#21831A', GradientType=1 );
 }
 
 .service-item {
@@ -971,7 +978,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #0088e8;
+  background-color: #21831A;
 }
 
 .service-item .icon {
@@ -986,7 +993,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #00b4c6;
+  background:#32C326;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1159,7 +1166,7 @@ accordions
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #0088e8;
+  color: #21831A;
   border-bottom: none;
 }
 .accordion-head.is-open .icon {
@@ -1219,45 +1226,45 @@ contact
 
 .contact-form {
   padding: 100px;
-  background: rgba(0, 136, 232, 1);
+  background: #21831A;
   background: -moz-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
+    color-stop(0%, #21831A),
+    color-stop(0%, #32C326)),
+    color-stop(100%, #21831A)
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    #21831A 0%,
+    #32C326) 0%,
+    #21831A 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21831A', endColorstr='#21831A', GradientType=1 );
 }
 
 @media (max-width: 765px) {
@@ -1331,7 +1338,7 @@ footer .social li {
 footer .social li a {
   color: #fff;
   text-align: center;
-  background-color: #00b4c6;
+  background-color:#32C326;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1345,7 +1352,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #0088e8;
+  background-color: #21831A;
   color: #fff;
 }
 
@@ -1375,7 +1382,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #00b4c6 0%, #0088e8 100%);
+  background-image: linear-gradient(145deg,#32C326 0%, #21831A 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1450,4 +1457,69 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+
+/*----------------------------*\
+      Coverflow Album Slider 
+\*-----------------------------*/
+
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+
+/* hide */
+#panel {
+  display: none;
 }
