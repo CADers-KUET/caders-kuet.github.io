@@ -262,7 +262,7 @@ $("video").click(function(){
 });
 });//EOF Document.ready
 
-
+// dev hide
 function myFunction() {
   document.getElementById("panel").style.display = "block";
 }

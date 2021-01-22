@@ -1529,3 +1529,77 @@ preloader
 #panel {
   display: none;
 }
+
+/* news */
+$success: #2ecc71;
+$warning: #e67e22;
+$danger: #e74c34;
+$grey: #cccccc;
+
+.alert {
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.5em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: calc(100% - 100px);
+}
+
+@each $name, $color in(
+  'success': $success,
+  'warning': $warning,
+  'danger': $danger
+) {
+  .alert-#{$name} {
+    background-color: $color;
+  }
+}
+
+
+
+/* expand */
+
+.toggle-box {
+  display: none;
+}
+
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+  display: block;
+}
+
+.toggle-box + label:before {
+  background-color: #4F5150;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.toggle-box:checked + label:before {
+  content: "\2212";
+}
