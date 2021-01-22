@@ -1200,6 +1200,11 @@ contact
   padding-right: 0px;
 }
 
+#contact-us .contact-about {
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
 #contact-us h5 {
   font-weight: 500;
   font-size: 18px;
