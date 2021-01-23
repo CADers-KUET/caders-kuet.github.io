@@ -1615,7 +1615,7 @@ $grey: #cccccc;
 
 @media (max-width: 768px) {
   .responsive-iframe {
-    width: 80vw;
+    width: 82vw;
     height: 400px;
   }
 }
