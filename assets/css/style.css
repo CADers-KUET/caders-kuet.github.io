@@ -266,7 +266,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: #f55858;
+  background-color: #32C326;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -1282,7 +1282,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #777;
+  color: white;
   font-size: 14px;
   border: none;
   width: 100%;
@@ -1616,7 +1616,7 @@ $grey: #cccccc;
 @media (max-width: 768px) {
   .responsive-iframe {
     width: 82vw;
-    height: 400px;
+    padding-top: 20%;
   }
 }
 
