@@ -316,15 +316,15 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #f55858 !important;
+  color: #0E370B !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #f55858 !important;
+  color: #0E370B !important;
 }
 
 .background-header .nav li a.active {
-  color: #f55858 !important;
+  color: #0E370B !important;
 }
 
 .header-area {
@@ -398,7 +398,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f55858;
+  color: #0E370B;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -468,12 +468,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #f55858;
+  background: #0E370B;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #f55858;
+  color:#0E370B;
   padding-left: 25px;
 }
 
@@ -609,7 +609,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f55858;
+  color: #0E370B;
 }
 
 @media (max-width: 1200px) {
@@ -675,7 +675,7 @@ header
   }
   .header-area .main-nav .nav > li > a:hover,
   .header-area .main-nav .nav .submenu > ul > li > a:hover {
-    color: #f55858;
+    color: #0E370B;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -898,6 +898,25 @@ about
 
 #about2 ul li .text {
   margin-left: 80px;
+}
+
+
+#about2 ul li .text-committee {
+  margin-left: 110px;
+  margin-bottom: 50px;
+}
+
+#about2 ul li .img-committee {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #32C326;
+  position: relative;
+}
+
+.committee-list {
+  margin-bottom: 80px;
 }
 
 #about2 ul li .text h6 {
