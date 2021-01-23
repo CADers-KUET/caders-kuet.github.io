@@ -1603,3 +1603,20 @@ $grey: #cccccc;
 .toggle-box:checked + label:before {
   content: "\2212";
 }
+
+
+
+/* responsive-iframe */
+.responsive-iframe {
+  width: 650px;
+  height: 400px;
+}
+
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    width: 80vw;
+    height: 400px;
+  }
+}
+
