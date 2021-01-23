@@ -906,14 +906,23 @@ about
   margin-bottom: 50px;
 }
 
-#about2 ul li .img-committee {
+.img-committee {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   display: inline-block;
   border: 3px solid #32C326;
   position: relative;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out; 
 }
+
+.img-committee:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+  }
 
 .committee-list {
   margin-bottom: 80px;
